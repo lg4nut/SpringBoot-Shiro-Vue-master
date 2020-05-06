@@ -1,0 +1,18 @@
+https://jakhuang.github.io/form-generator/#/
+google:银行 报送 央行 数据
+APP建设量
+个人单日跨境交易超20万要报送央行
+通常会有需求，在关闭弹框后需要清空填写的数据，这时候就需要关闭事件了
+
+<el-dialog title="标题" :visible.sync="bind" size="small" @close='closeDialog'>
+</el-dialog>
+1
+2
+在标签中加入@close='closeDialog'
+mothods中加入
+
+   //关闭弹框的事件
+    closeDialog(){
+      this.xxx = '';//清空数据
+    },
+
