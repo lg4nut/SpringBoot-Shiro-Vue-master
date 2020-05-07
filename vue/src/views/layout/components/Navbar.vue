@@ -4,7 +4,10 @@
     <breadcrumb></breadcrumb>
     <el-dropdown class="avatar-container" trigger="click">
       <div class="avatar-wrapper">
-        <img class="user-avatar" :src="avatar+'?imageView2/1/w/80/h/80'">
+<!--        <img class="user-avatar" :src="avatar+'?imageView2/1/w/80/h/80'"/>-->
+<!--        <img  src="../../../icons/pbc.jpg" />-->
+        <img style="width: 50px"  src="https://media-exp1.licdn.com/dms/image/C510BAQFVH7lK2N2-Ug/company-logo_200_200/0?e=2159024400&v=beta&t=r3jaW0pnA8ltzsGd1g2lCz0KsPUh6avYHOq_ll1uXT4">
+
         <i class="el-icon-caret-bottom"></i>
       </div>
       <el-dropdown-menu class="user-dropdown" slot="dropdown">
